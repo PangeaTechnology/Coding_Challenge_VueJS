@@ -1,8 +1,8 @@
 # Vue todos code challenge
-**vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job at i22.
+**vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job.
 
 ## Scenario
-So here you are! You decided to apply for a job at i22 and now we are asking you to help us with a Todo App.
+So here you are! You decided to apply for a job and now we are asking you to help us with a Todo App.
 We already setup a brand new project for you that already contains a very basic Vue.js setup. Your task is now to finish the Todo App by completing the features to add, edit and delete todos and storing them only in the client storage.
 
 ## Technical starting point
