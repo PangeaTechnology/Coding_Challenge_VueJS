@@ -28,17 +28,23 @@
         </v-btn>
       </div>
     </v-card-title>
-    <v-btn >
+    <v-btn 
+      @click="onCompleteHandler"
+      :disabled="item.complete"
+    >
       Complete
     </v-btn>
-    <v-btn color="error">
+    <v-btn 
+      @click="onDeleteHandler"
+      color="error"
+    >
       Delete
     </v-btn>
   </v-card>
 </template>
 
 <script>
-import { UPDATE_ITEM  } from '../../store/modules/todo';
+import { DELETE_ITEM, COMPLETE_ITEM, UPDATE_ITEM  } from '../../store/modules/todo';
 
 export default {
   data() {
@@ -54,6 +60,12 @@ export default {
     },
   },
   methods: {
+    onDeleteHandler() {
+      this.$store.dispatch(DELETE_ITEM, this.item.id);
+    },
+    onCompleteHandler() {
+      this.$store.dispatch(COMPLETE_ITEM, this.item.id);
+   },
     onEditHandler() {
       this.editMode = true;
     },
