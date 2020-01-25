@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 export const CREATE_ITEM = 'CREATE_ITEM';
+export const READ_ITEMS = 'READ_ITEMS';
 
 const state = {};
 
@@ -21,6 +22,7 @@ const actions = {
   },
 };
 const getters = {
+  [READ_ITEMS]: state => state,
 };
 
 export const todo = {
