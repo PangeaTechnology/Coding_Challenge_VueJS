@@ -1,8 +1,8 @@
 # Vue todos code challenge
-**vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job at i22.
+**vue-todos-code-challenge** is a code challenge for Vue.JS developers applying for a job.
 
 ## Scenario
-So here you are! You decided to apply for a job at i22 and now we are asking you to help us with a Todo App.
+So here you are! You decided to apply for a job and now we are asking you to help us with a Todo App.
 We already setup a brand new project for you that already contains a very basic Vue.js setup. Your task is now to finish the Todo App by completing the features to add, edit and delete todos and storing them only in the client storage.
 
 ## Technical starting point
@@ -14,12 +14,12 @@ Our team was already able to complete the following:
 * Add the basic app and component structure
 
 ## Mission
-- [ ] Fork this repository
+- [ ] Clone this repository into your account
 - [ ] Create a named `vuex` module to hold your todos
 - [ ] Complete the CRUD features in the GUI and make sure they are reflected in the store
 - [ ] Make sure the `todo-list` component dynamically displays the todos
 - [ ] Write concise commit messages
-- [ ] Submit a merge request and describe your changes precisely
+- [ ] Submit your git repository to hr@pangea-technology.com and describe your changes precisely
 
 ## Bonus
 - [ ] Add [Vuex-ORM](https://vuex-orm.github.io/vuex-orm/)
