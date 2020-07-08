@@ -3,7 +3,7 @@
     <v-toolbar
       app
     >
-      <v-toolbar-title v-text="title"/>
+      <v-toolbar-title v-text="title" />
     </v-toolbar>
     <v-content>
       <v-layout
@@ -13,7 +13,7 @@
       >
         <v-flex xs6>
           <TodoForm />
-          <TodoList/>
+          <TodoList />
         </v-flex>
       </v-layout>
     </v-content>
